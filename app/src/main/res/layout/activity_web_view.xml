@@ -6,7 +6,7 @@
     xmlns:local="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.noavaran.system.vira.baryab.activities.WebViewActivity">
+    tools:mContext="baryab.motesadi.activities.WebViewActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/acWebView_toolbar"
@@ -25,7 +25,7 @@
             android:layout_height="match_parent"
             android:minHeight="?attr/actionBarSize">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/acWebView_btnBack"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -40,7 +40,7 @@
                 android:textSize="25dp"
                 app:tvCustomFont="@string/baseTextIconFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/acWebView_tvTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

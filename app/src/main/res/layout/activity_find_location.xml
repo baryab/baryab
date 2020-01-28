@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/acFindLocation_btnBack"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
                 android:textSize="@dimen/_20sdp"
                 app:tvCustomFont="@string/baseTextIconFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"

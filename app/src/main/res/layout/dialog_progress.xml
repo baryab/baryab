@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/txt"
         android:layout_margin="@dimen/margin_medium"
         android:layout_width="wrap_content"

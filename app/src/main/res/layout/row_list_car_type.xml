@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/rlCarType_tIcon"
         android:layout_width="@dimen/_25sdp"
         android:layout_height="@dimen/_28sdp"
@@ -18,7 +18,7 @@
         android:textSize="@dimen/_20sdp"
         app:tvCustomFont="@string/baseTextIconFont" />
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/rlCarType_tvText"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_28sdp"

@@ -16,7 +16,7 @@
         app:contentInsetStart="0dp"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -35,7 +35,7 @@
         android:orientation="horizontal"
         android:weightSum="2">
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/frCarriedLoading_btnCarryingShipments"
             android:layout_width="0dp"
             android:layout_height="@dimen/_35sdp"
@@ -48,7 +48,7 @@
             android:textSize="@dimen/text_size_medium"
             app:tvCustomFont="@string/baseFont" />
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/frCarriedLoading_btnCarriedShipments"
             android:layout_width="0dp"
             android:layout_height="@dimen/_35sdp"

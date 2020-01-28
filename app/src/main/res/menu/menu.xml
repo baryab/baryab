@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:title="خانه"
+        android:icon="@drawable/ic_home1"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/navigation_haml_shode"
+        android:title="حمل شده"
+        android:icon="@drawable/ic_register_new_shipment"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/navigation_sabt_bar"
+        android:title="ثبت بار"
+        android:icon="@drawable/ic_safiran1"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/navigation_barhaye_man"
+        android:title="بارهای من"
+        android:icon="@drawable/ic_my_loadings"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>

@@ -5,10 +5,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.noavaran.system.vira.baryab.activities.VerificationActivity"
+    tools:mContext="baryab.motesadi.activities.VerificationActivity"
     android:background="@color/colorPrimary">
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/acVerification_tvMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,7 +22,7 @@
         android:textColor="#d4d3d3"
         app:tvCustomFont="@string/baseFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomEditText
+    <baryab.motesadi.customviews.CustomEditText
         android:id="@+id/acVerification_etCode"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_35sdp"
@@ -41,7 +41,7 @@
         android:textColor="@color/white"
         app:etCustomFont="@string/baseFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomButton
+    <baryab.motesadi.customviews.CustomButton
         android:id="@+id/acVerification_btnConfirm"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_35sdp"
@@ -56,7 +56,7 @@
         android:textColor="@color/black_text_secondary"
         app:btnCustomFont="@string/baseFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/acVerification_btnRequestCodeAgain"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_35sdp"
@@ -70,7 +70,7 @@
         android:textColor="@color/white_text_secondary"
         app:tvCustomFont="@string/baseFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/acVerification_tvCountDownTimer"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_35sdp"

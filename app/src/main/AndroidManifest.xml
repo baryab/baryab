@@ -39,20 +39,20 @@
         android:required="true" />
 
     <application
-        android:name=".AppController"
+        android:name="baryab.motesadi.AppController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:usesCleartextTraffic="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
         tools:replace="android:icon">
         <activity
-            android:name=".activities.OriginActivity"
+            android:name="baryab.motesadi.activities.RoutingActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:windowSoftInputMode="adjustPan"></activity>
-        <activity android:name=".map.ir.MapActivity" />
+        <activity android:name="baryab.motesadi.ir.MapActivity" />
 
         <meta-data
             android:name="com.onesignal.NotificationOpened.DEFAULT"
@@ -77,7 +77,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".activities.SplashActivity"
+            android:name="baryab.motesadi.activities.SplashActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -87,107 +87,107 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".BaseActivity"
+            android:name="baryab.motesadi.BaseActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.LoginActivity"
+            android:name="baryab.motesadi.activities.LoginActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.VerificationActivity"
+            android:name="baryab.motesadi.activities.VerificationActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.DestinationActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name=".activities.FindLocationActivity"
+            android:name="baryab.motesadi.activities.DestinationActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.MapsActivity"
+            android:name="baryab.motesadi.activities.FindLocationActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.MainActivity"
+            android:name="baryab.motesadi.activities.MapsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="baryab.motesadi.activities.MainActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.ImageCropperActivity"
+            android:name="baryab.motesadi.activities.ImageCropperActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.ProfileActivity"
+            android:name="baryab.motesadi.activities.ProfileActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.WebViewActivity"
+            android:name="baryab.motesadi.activities.WebViewActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.MyLoadingDetailsActivity"
+            android:name="baryab.motesadi.activities.MyLoadingDetailsActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.ApplicantDriversActivity"
+            android:name="baryab.motesadi.activities.ApplicantDriversActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.EditShipmentActivity"
+            android:name="baryab.motesadi.activities.EditShipmentActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.CarriedShipmentDetailActivity"
+            android:name="baryab.motesadi.activities.CarriedShipmentDetailActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.CarryingShipmentDetailActivity"
+            android:name="baryab.motesadi.activities.CarryingShipmentDetailActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.OnlineDriverTrackingActivity"
+            android:name="baryab.motesadi.activities.OnlineDriverTrackingActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.AboutActivity"
+            android:name="baryab.motesadi.activities.AboutActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.ContactActivity"
+            android:name="baryab.motesadi.activities.ContactActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.FaqActivity"
+            android:name="baryab.motesadi.activities.FaqActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.CommentActivity"
+            android:name="baryab.motesadi.activities.CommentActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".activities.CrashActivity"
+            android:name="baryab.motesadi.activities.CrashActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan" />
 
         <service
-            android:name=".onesignal.ServiceNotificationExtender"
+            android:name="baryab.motesadi.onesignal.ServiceNotificationExtender"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.onesignal.NotificationExtender" />
             </intent-filter>
         </service>
         <service
-            android:name=".services.SignalRService"
+            android:name="baryab.motesadi.services.SignalRService"
             android:enabled="true"
             android:process=":SignalRProcess" />
-        <service android:name=".services.SyncService" />
+        <service android:name="baryab.motesadi.services.SyncService" />
 
-        <receiver android:name=".broadcasts.AutoStart">
+        <receiver android:name="baryab.motesadi.broadcasts.AutoStart">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>

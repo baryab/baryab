@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context="com.noavaran.system.vira.baryab.activities.FaqActivity">
+    tools:mContext="baryab.motesadi.activities.FaqActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/acFaq_toolbar"
@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/acFaq_btnBack"
                 android:layout_width="@dimen/toolbar_icon_view_width"
                 android:layout_height="@dimen/toolbar_icon_view_height"
@@ -40,7 +40,7 @@
                 android:textSize="@dimen/toolbar_icon_text_size"
                 app:tvCustomFont="@string/baseTextIconFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/acFaq_tvTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -68,7 +68,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/acFaq_tvFAQ1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -85,7 +85,7 @@
                 android:textColor="@color/blue_500"
                 app:tvCustomFont="@string/baseFont"/>
 
-            <com.noavaran.system.vira.baryab.customviews.JustifiedTextView
+            <baryab.motesadi.customviews.JustifiedTextView
                 android:id="@+id/acFaq_tvFAQ2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
                 noghteh:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont"/>
 
-            <com.noavaran.system.vira.baryab.customviews.JustifiedTextView
+            <baryab.motesadi.customviews.JustifiedTextView
                 android:id="@+id/acFaq_tvFAQ3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -113,7 +113,7 @@
                 noghteh:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont"/>
 
-            <com.noavaran.system.vira.baryab.customviews.JustifiedTextView
+            <baryab.motesadi.customviews.JustifiedTextView
                 android:id="@+id/acFaq_tvFAQ4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -127,7 +127,7 @@
                 noghteh:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont"/>
 
-            <com.noavaran.system.vira.baryab.customviews.JustifiedTextView
+            <baryab.motesadi.customviews.JustifiedTextView
                 android:id="@+id/acFaq_tvFAQ5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -141,7 +141,7 @@
                 noghteh:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont"/>
 
-            <com.noavaran.system.vira.baryab.customviews.JustifiedTextView
+            <baryab.motesadi.customviews.JustifiedTextView
                 android:id="@+id/acFaq_tvFAQ6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -155,7 +155,7 @@
                 noghteh:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont"/>
 
-            <com.noavaran.system.vira.baryab.customviews.JustifiedTextView
+            <baryab.motesadi.customviews.JustifiedTextView
                 android:id="@+id/acFaq_tvFAQ7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -169,7 +169,7 @@
                 noghteh:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont"/>
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/acFaq_tvFAQ8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -185,7 +185,7 @@
                 android:textColor="@color/blue_500"
                 app:tvCustomFont="@string/baseFont"/>
 
-            <com.noavaran.system.vira.baryab.customviews.JustifiedTextView
+            <baryab.motesadi.customviews.JustifiedTextView
                 android:id="@+id/acFaq_tvFAQ9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -199,7 +199,7 @@
                 noghteh:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont"/>
 
-            <com.noavaran.system.vira.baryab.customviews.JustifiedTextView
+            <baryab.motesadi.customviews.JustifiedTextView
                 android:id="@+id/acFaq_tvFAQ10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -213,7 +213,7 @@
                 noghteh:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont"/>
 
-            <com.noavaran.system.vira.baryab.customviews.JustifiedTextView
+            <baryab.motesadi.customviews.JustifiedTextView
                 android:id="@+id/acFaq_tvFAQ11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -227,7 +227,7 @@
                 noghteh:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont"/>
 
-            <com.noavaran.system.vira.baryab.customviews.JustifiedTextView
+            <baryab.motesadi.customviews.JustifiedTextView
                 android:id="@+id/acFaq_tvFAQ12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -241,7 +241,7 @@
                 noghteh:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont"/>
 
-            <com.noavaran.system.vira.baryab.customviews.JustifiedTextView
+            <baryab.motesadi.customviews.JustifiedTextView
                 android:id="@+id/acFaq_tvFAQ13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

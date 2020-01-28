@@ -12,7 +12,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true">
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/dgInvalidUser_tvTitle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -41,7 +41,7 @@
             android:scaleType="fitXY"
             android:src="@drawable/ic_warning"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/dgInvalidUser_tvMessage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
             android:layout_weight="0.30"
             android:background="@drawable/edittext_rectangle">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/dgInvalidUser_btnClose"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -89,7 +89,7 @@
             android:layout_weight="0.70"
             android:background="@drawable/edittext_rectangle">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/dgInvalidUser_btnHelp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

@@ -25,7 +25,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -57,7 +57,7 @@
         android:gravity="center"
         android:visibility="visible">
 
-        <com.noavaran.system.vira.baryab.customviews.CustomImageView
+        <baryab.motesadi.customviews.CustomImageView
             android:id="@+id/acApplicantDrivers_ivNoItemFound"
             android:layout_width="@dimen/row_layout_no_item_found_image_width"
             android:layout_height="@dimen/row_layout_no_item_found_image_width"
@@ -67,7 +67,7 @@
             android:src="@drawable/ic_no_item_found"
             app:ivDrawableTint="#adffff"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/acApplicantDrivers_tvNoItemFound"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:padding="10dp">
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/dgCancelRequestReason_tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
         android:checkedButton="@+id/dgCancelRequestReason_rbOption1"
         android:orientation="vertical">
 
-        <com.noavaran.system.vira.baryab.customviews.CustomRadioButton
+        <baryab.motesadi.customviews.CustomRadioButton
             android:id="@+id/dgCancelRequestReason_rbOption1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
             android:theme="@style/RadioButtonTheme"
             app:rbCustomFont="@string/baseFont" />
 
-        <com.noavaran.system.vira.baryab.customviews.CustomRadioButton
+        <baryab.motesadi.customviews.CustomRadioButton
             android:id="@+id/dgCancelRequestReason_rbOption2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,7 +51,7 @@
             android:theme="@style/RadioButtonTheme"
             app:rbCustomFont="@string/baseFont" />
 
-        <com.noavaran.system.vira.baryab.customviews.CustomRadioButton
+        <baryab.motesadi.customviews.CustomRadioButton
             android:id="@+id/dgCancelRequestReason_rbOption3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
             android:theme="@style/RadioButtonTheme"
             app:rbCustomFont="@string/baseFont" />
 
-        <com.noavaran.system.vira.baryab.customviews.CustomRadioButton
+        <baryab.motesadi.customviews.CustomRadioButton
             android:id="@+id/dgCancelRequestReason_rbOption4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -77,7 +77,7 @@
             android:theme="@style/RadioButtonTheme"
             app:rbCustomFont="@string/baseFont" />
 
-        <com.noavaran.system.vira.baryab.customviews.CustomRadioButton
+        <baryab.motesadi.customviews.CustomRadioButton
             android:id="@+id/dgCancelRequestReason_rbOption5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -92,7 +92,7 @@
 
     </RadioGroup>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomEditText
+    <baryab.motesadi.customviews.CustomEditText
         android:id="@+id/dgCancelRequestReason_etDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -128,7 +128,7 @@
             android:layout_weight="1"
             android:background="@drawable/edittext_rectangle">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/dgCancelRequestReason_btnSend"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -148,7 +148,7 @@
             android:layout_weight="1"
             android:background="@drawable/edittext_rectangle">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/dgCancelRequestReason_btnCancel"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

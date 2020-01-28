@@ -13,7 +13,7 @@
         android:layout_marginTop="@dimen/_15sdp"
         android:src="@drawable/ic_no_internet_connection"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/dgNoInternetConnection_tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
         android:textColor="@color/black"
         app:tvCustomFont="@string/baseFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/dgNoInternetConnection_tvHint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
         android:layout_marginTop="@dimen/_20sdp"
         android:background="@color/colorPrimaryDark">
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/dgNoInternetConnection_btnWIFI"
             android:layout_width="0dp"
             android:layout_height="@dimen/_35sdp"
@@ -69,7 +69,7 @@
             android:layout_marginBottom="@dimen/margin_small"
             android:background="@color/white_dividers"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/dgNoInternetConnection_btnDATA"
             android:layout_width="0dp"
             android:layout_height="@dimen/_35sdp"

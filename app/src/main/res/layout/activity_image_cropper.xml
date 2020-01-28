@@ -16,7 +16,7 @@
         app:contentInsetStart="0dp"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/acImageCropper_btnSave"
             android:layout_width="@dimen/_60sdp"
             android:layout_height="match_parent"
@@ -28,7 +28,7 @@
             android:textColor="@color/white"
             app:tvCustomFont="@string/baseFont"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/acImageCropper_btnDiscard"
             android:layout_width="@dimen/_60sdp"
             android:layout_height="match_parent"
@@ -40,7 +40,7 @@
             android:textColor="@color/white"
             app:tvCustomFont="@string/baseFont"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/acImageCropper_tvTitle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -57,7 +57,7 @@
 
     <view
         android:id="@+id/acImageCropper_civImage"
-        class="com.noavaran.system.vira.baryab.customviews.CropImageView"
+        class="baryab.motesadi.customviews.CropImageView"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_x="0dip"
@@ -73,7 +73,7 @@
         android:layout_marginBottom="@dimen/margin_medium"
         android:orientation="horizontal">
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/acImageCropper_btnSRotateLeft"
             android:layout_width="@dimen/_50sdp"
             android:layout_height="@dimen/_50sdp"
@@ -85,7 +85,7 @@
             android:textColor="@color/white"
             app:tvCustomFont="@string/baseTextIconFont"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/acImageCropper_btnSRotateRight"
             android:layout_width="@dimen/_50sdp"
             android:layout_height="@dimen/_50sdp"

@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.noavaran.system.vira.baryab.activities.SplashActivity"
+    tools:mContext="baryab.motesadi.activities.SplashActivity"
     android:background="@color/colorPrimary">
 
     <ImageView
@@ -29,7 +29,7 @@
         android:layout_marginTop="@dimen/_70sdp"
         android:gravity="center">
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/acSplash_tvBaryab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,14 +42,14 @@
 
     </RelativeLayout>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_below="@+id/acSplash_rlAppName"
         android:layout_marginTop="@dimen/_10sdp"
         android:padding="10dp"
-        android:text="نسخه متصدیان"
+        android:text="نسخه مدیران و متصدیان"
         android:textSize="@dimen/_12sdp"
         android:textColor="#f7fb8e"
         app:tvCustomFont="@string/baseFont"/>
@@ -68,7 +68,7 @@
             android:orientation="horizontal"
             android:gravity="center">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/acSplash_tvLoading"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"

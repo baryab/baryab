@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/dgSyncFailure_tvTitle"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_35sdp"
@@ -17,7 +17,7 @@
         android:textColor="@color/blue_500"
         app:tvCustomFont="@string/baseFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/dgSyncFailure_tvDesc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
         android:textColor="@color/black_text_secondary"
         app:tvCustomFont="@string/baseFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/dgSyncFailure_tvOptionIcon1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
         android:textColor="@color/black_text_secondary"
         app:tvCustomFont="@string/baseTextIconFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/dgSyncFailure_tvOptionText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -61,7 +61,7 @@
         android:textColor="@color/black_text_secondary"
         app:tvCustomFont="@string/baseFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/dgSyncFailure_tvOptionIcon2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
         android:textColor="@color/black_text_secondary"
         app:tvCustomFont="@string/baseTextIconFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/dgSyncFailure_tvOptionText2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -106,7 +106,7 @@
             android:layout_weight="1"
             android:background="@drawable/edittext_rectangle">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/dgSyncFailure_btnContact"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -125,7 +125,7 @@
             android:layout_weight="1"
             android:background="@drawable/edittext_rectangle">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/dgSyncFailure_btnCancel"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

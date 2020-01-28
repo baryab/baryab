@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.noavaran.system.vira.baryab.activities.OnlineDriverTrackingActivity">
+    tools:mContext="baryab.motesadi.activities.OnlineDriverTrackingActivity">
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/acOnlineDriverTracking_mapView"
@@ -37,7 +37,7 @@
             android:layout_marginTop="@dimen/margin_small"
             android:layout_marginBottom="@dimen/margin_small">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/acOnlineDriverTracking_btnContact"
                 android:layout_width="@dimen/_100sdp"
                 android:layout_height="match_parent"
@@ -51,7 +51,7 @@
                 android:textColor="@color/blue_600"
                 app:tvCustomFont="@string/baseFont"/>
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/acOnlineDriverTracking_tvLoadingType"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -85,7 +85,7 @@
             android:layout_marginRight="@dimen/margin_small"
             android:layout_marginBottom="@dimen/margin_small"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/acOnlineDriverTracking_tvDriverName"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_32sdp"
@@ -102,7 +102,7 @@
             android:textColor="@color/black_text_secondary"
             app:tvCustomFont="@string/baseFont"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/acOnlineDriverTracking_tvTruckType"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_32sdp"
@@ -118,7 +118,7 @@
             android:textColor="@color/black_text_secondary"
             app:tvCustomFont="@string/baseFont"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/acOnlineDriverTracking_tvTruckDetails"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_32sdp"

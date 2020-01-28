@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.noavaran.system.vira.baryab.activities.MapsActivity">
+    tools:mContext="baryab.motesadi.activities.MapsActivity">
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/acMaps_mapView"
@@ -16,7 +16,7 @@
         android:layout_alignParentTop="true"
         android:apiKey="@string/google_maps_key" />
 
-    <com.noavaran.system.vira.baryab.customviews.CustomAutoCompleteTextView
+    <baryab.motesadi.customviews.CustomAutoCompleteTextView
         android:id="@+id/acMaps_etSearchPlaces"
         android:layout_width="fill_parent"
         android:layout_height="@dimen/_37sdp"
@@ -63,7 +63,7 @@
 
     </RelativeLayout>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/acMaps_btnMyLocation"
         android:layout_width="@dimen/_60sdp"
         android:layout_height="@dimen/_60sdp"

@@ -29,7 +29,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1">
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/frOriginDetermination_btnConfirm"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -50,7 +50,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/view_rectangle_background_transparent_border_white_no_corners">
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/frOriginDetermination_btnAddNewPlace"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -73,7 +73,7 @@
             android:layout_height="@dimen/_35sdp"
             android:layout_below="@+id/frOriginDetermination_llButtonContainers">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frOriginDetermination_btnShowChosenPlace"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

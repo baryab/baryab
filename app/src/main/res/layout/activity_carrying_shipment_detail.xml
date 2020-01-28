@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context="com.noavaran.system.vira.baryab.activities.CarriedShipmentDetailActivity">
+    tools:mContext="baryab.motesadi.activities.CarriedShipmentDetailActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/acCarryingShipmentDetail_toolbar"
@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/acCarryingShipmentDetail_tvGap"
                 android:layout_width="@dimen/toolbar_icon_view_width"
                 android:layout_height="@dimen/toolbar_icon_view_height"
@@ -40,7 +40,7 @@
                 android:textSize="@dimen/toolbar_icon_text_size"
                 app:tvCustomFont="@string/baseTextIconFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/acCarryingShipmentDetail_tvTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -58,7 +58,7 @@
                 android:textStyle="bold"
                 app:tvCustomFont="@string/baseFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/acCarryingShipmentDetail_btnBack"
                 android:layout_width="@dimen/toolbar_icon_view_width"
                 android:layout_height="@dimen/toolbar_icon_view_height"
@@ -97,7 +97,7 @@
         android:scaleType="fitXY"
         android:src="@drawable/ic_no_image_found" />
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/acCarryingShipmentDetail_rbDriverName"
         android:layout_width="@dimen/_140sdp"
         android:layout_height="@dimen/_24sdp"
@@ -139,7 +139,7 @@
 
     </RelativeLayout>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/acCarryingShipmentDetail_tvDriverCarType"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_24sdp"
@@ -154,7 +154,7 @@
         android:textSize="@dimen/text_size_medium"
         app:tvCustomFont="@string/baseFont" />
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/acCarryingShipmentDetail_tvDriverCarDetails"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_24sdp"
@@ -205,7 +205,7 @@
                 android:scaleType="fitXY"
                 android:src="@drawable/ic_flag_iran" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_above="@+id/tvIranText"
@@ -217,7 +217,7 @@
                 android:textColor="@color/white"
                 android:textSize="@dimen/_3sdp" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/tvIranText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -232,7 +232,7 @@
 
         </RelativeLayout>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/acCarryingShipmentDetail_tvPlateLicenseNumber"
             android:layout_width="@dimen/_50sdp"
             android:layout_height="match_parent"
@@ -259,7 +259,7 @@
             android:background="#edce01"
             android:padding="@dimen/_2sdp">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/tvIranTextLabel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -273,7 +273,7 @@
                 android:textSize="@dimen/_2sdp"
                 app:tvCustomFont="@string/baseFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/acCarryingShipmentDetail_tvPlateLicenseIranNumber"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -322,7 +322,7 @@
                 android:layout_alignParentTop="true"
                 android:apiKey="@string/google_maps_key" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/acCarryingShipmentDetail_btnMap"
                 android:layout_width="@dimen/_140sdp"
                 android:layout_height="@dimen/_25sdp"
@@ -362,7 +362,7 @@
                     android:layout_alignTop="@+id/acCarryingShipmentDetail_ivShipmentPhoto"
                     android:layout_toRightOf="@+id/acCarryingShipmentDetail_ivShipmentPhoto">
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/acCarryingShipmentDetail_btnContactToDriver"
                         android:layout_width="@dimen/_100sdp"
                         android:layout_height="@dimen/_25sdp"
@@ -377,7 +377,7 @@
                         android:textSize="@dimen/text_size_tiny"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/acCarryingShipmentDetail_btnCancelRequest"
                         android:layout_width="@dimen/_100sdp"
                         android:layout_height="@dimen/_25sdp"
@@ -394,7 +394,7 @@
 
                 </RelativeLayout>
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_tvRegisterLoadingDate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -407,7 +407,7 @@
                     android:textSize="@dimen/text_size_medium"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_etRegisterLoadingDate"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -421,7 +421,7 @@
                     android:textSize="@dimen/text_size_medium"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_tvLoadingType"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -434,7 +434,7 @@
                     android:textSize="@dimen/text_size_medium"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_etLoadingType"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -448,7 +448,7 @@
                     android:textSize="@dimen/text_size_medium"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_tvLoadingWeight"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -461,7 +461,7 @@
                     android:textSize="@dimen/text_size_medium"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_etLoadingWeight"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -475,7 +475,7 @@
                     android:textSize="@dimen/text_size_medium"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_tvCarType"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -488,7 +488,7 @@
                     android:textSize="@dimen/text_size_medium"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_etCarType"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -502,7 +502,7 @@
                     android:textSize="@dimen/text_size_medium"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_tvCarProperLength"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -515,7 +515,7 @@
                     android:textSize="@dimen/text_size_medium"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_etCarProperLength"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -529,7 +529,7 @@
                     android:textSize="@dimen/text_size_medium"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_tvCarProperWidth"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -542,7 +542,7 @@
                     android:textSize="@dimen/text_size_medium"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_etCarProperWidth"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -556,7 +556,7 @@
                     android:textSize="@dimen/text_size_medium"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_tvCarProperHeight"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -569,7 +569,7 @@
                     android:textSize="@dimen/text_size_medium"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_etCarProperHeight"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -583,7 +583,7 @@
                     android:textSize="@dimen/text_size_medium"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_tvLoadingFare"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -596,7 +596,7 @@
                     android:textSize="@dimen/text_size_medium"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_tvLoadingFareHint"
                     android:layout_width="@dimen/_45sdp"
                     android:layout_height="wrap_content"
@@ -610,7 +610,7 @@
                     android:textSize="@dimen/text_size_tiny"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_etLoadingFare"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -640,7 +640,7 @@
                         android:scaleType="fitXY"
                         android:src="@drawable/ic_origin_small" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/acCarryingShipmentDetail_tvOriginMarker"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -667,7 +667,7 @@
                         android:scaleType="fitXY"
                         android:src="@drawable/ic_destination_small" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/acCarryingShipmentDetail_tvDestinationMarker"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -703,7 +703,7 @@
                         android:scaleType="fitXY"
                         android:src="@drawable/ic_origin_small" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/acCarryingShipmentDetail_tvOriginMarker1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -730,7 +730,7 @@
                         android:scaleType="fitXY"
                         android:src="@drawable/ic_destination_small" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/acCarryingShipmentDetail_tvDestinationMarker1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -766,7 +766,7 @@
                         android:scaleType="fitXY"
                         android:src="@drawable/ic_origin" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/acCarryingShipmentDetail_tvOriginMarker2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -793,7 +793,7 @@
                         android:scaleType="fitXY"
                         android:src="@drawable/ic_destination_small" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/acCarryingShipmentDetail_tvDestinationMarker2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -813,7 +813,7 @@
 
                 </RelativeLayout>
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_tvSettlementAfterArrived"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -825,7 +825,7 @@
                     android:textSize="@dimen/text_size_small"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_tvShipmentIsTransit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -839,7 +839,7 @@
                     android:textSize="@dimen/text_size_small"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_tvHavingWellTent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -853,7 +853,7 @@
                     android:textSize="@dimen/text_size_small"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_tvDescription"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -866,7 +866,7 @@
                     android:textSize="@dimen/text_size_medium"
                     app:tvCustomFont="@string/baseFont" />
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_etDescription"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -892,7 +892,7 @@
                     android:src="@drawable/ic_no_image_found"
                     android:visibility="gone"/>
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_tvOwnerSignature"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -909,7 +909,7 @@
                     app:tvCustomFont="@string/baseFont"
                     android:visibility="gone"/>
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/acCarryingShipmentDetail_etOwnerSignature"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

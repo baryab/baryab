@@ -28,7 +28,7 @@
         android:layout_alignBottom="@+id/rlMyLodaing_ivLoadingImage"
         android:layout_marginRight="@dimen/margin_small">
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/rlMyLodaing_tvDriverCount"
             android:layout_width="@dimen/_24sdp"
             android:layout_height="@dimen/_24sdp"
@@ -42,7 +42,7 @@
             android:textColor="@color/white"
             app:tvCustomFont="@string/baseFont"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/rlMyLodaing_tvCarType"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_24sdp"
@@ -58,7 +58,7 @@
             android:textColor="@color/white_text"
             app:tvCustomFont="@string/baseFont"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/rlMyLodaing_tvLoadingType"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -72,7 +72,7 @@
             android:textColor="@color/white_text"
             app:tvCustomFont="@string/baseFont"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/rlMyLodaing_tvLoadingFareType"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
             android:textColor="@color/white_text"
             app:tvCustomFont="@string/baseFont"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/rlMyLodaing_tvLoadingFare"
             android:layout_width="@dimen/_80sdp"
             android:layout_height="wrap_content"
@@ -103,7 +103,7 @@
             android:textColor="@color/blue_300"
             app:tvCustomFont="@string/baseFont"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/rlMyLodaing_tvDate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -130,7 +130,7 @@
             android:layout_marginBottom="@dimen/margin_tiny"
             android:background="@color/colorAccent"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomImageView
+        <baryab.motesadi.customviews.CustomImageView
             android:id="@+id/rlMyLodaing_ivOrigin"
             android:layout_width="@dimen/_11sdp"
             android:layout_height="@dimen/_17sdp"
@@ -141,7 +141,7 @@
             android:src="@drawable/ic_origin"
             app:ivDrawableTint="@color/green_500"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/rlMyLodaing_tvOrigin"
             android:layout_width="@dimen/_80sdp"
             android:layout_height="@dimen/_19sdp"
@@ -156,7 +156,7 @@
             android:textColor="@color/white_text"
             app:tvCustomFont="@string/baseFont"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomImageView
+        <baryab.motesadi.customviews.CustomImageView
             android:id="@+id/rlMyLodaing_ivDestination"
             android:layout_width="@dimen/_11sdp"
             android:layout_height="@dimen/_17sdp"
@@ -168,7 +168,7 @@
             android:src="@drawable/ic_origin"
             app:ivDrawableTint="@color/red_500"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/rlMyLodaing_tvDestination"
             android:layout_width="@dimen/_80sdp"
             android:layout_height="@dimen/_19sdp"

@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:background="@color/white">
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/puChosenLocations_tvTitle"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_35sdp"
@@ -19,7 +19,7 @@
         android:textColor="@color/blue_800"
         app:tvCustomFont="@string/baseFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/puChosenLocations_btnDismiss"
         android:layout_width="@dimen/_35sdp"
         android:layout_height="@dimen/_35sdp"

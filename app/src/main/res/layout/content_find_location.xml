@@ -6,12 +6,31 @@
     android:theme="@style/Theme.AppCompat.NoActionBar"
     xmlns:mapbox="http://schemas.android.com/apk/res-auto">
 
+    <RelativeLayout
+        android:id="@+id/rl_PlaceChooserMarker"
+        android:layout_marginTop="@dimen/_250sdp"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/acMaps_ivPlaceChooserMarker"
+            android:layout_width="50dp"
+            android:layout_height="78dp"
+            android:layout_above="@+id/acMaps_vCenterLine"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_origin"
+            android:tag="origin" />
+
+    </RelativeLayout>
+
     <ir.map.sdk_map.maps.MapView
         android:id="@+id/map_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         mapbox:mapbox_cameraZoomMax="20"
         mapbox:mapbox_cameraZoomMin="1" />
-
 
 </RelativeLayout>

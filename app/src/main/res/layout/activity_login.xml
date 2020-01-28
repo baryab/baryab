@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.noavaran.system.vira.baryab.activities.LoginActivity"
+    tools:mContext="baryab.motesadi.activities.LoginActivity"
     android:background="@color/colorPrimary">
 
     <ImageView
@@ -17,7 +17,7 @@
         android:layout_marginTop="@dimen/margin_large"
         android:src="@drawable/logo"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/acLogin_tvWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
         android:textColor="#d4d3d3"
         app:tvCustomFont="@string/baseFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomEditText
+    <baryab.motesadi.customviews.CustomEditText
         android:id="@+id/acLogin_etPhoneNumber"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_35sdp"
@@ -55,7 +55,7 @@
         android:textColor="@color/white"
         app:etCustomFont="@string/baseFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomButton
+    <baryab.motesadi.customviews.CustomButton
         android:id="@+id/acLogin_btnLogin"
         android:layout_width="match_parent"
         android:layout_height="@dimen/button_height"

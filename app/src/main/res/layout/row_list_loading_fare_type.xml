@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.noavaran.system.vira.baryab.customviews.CustomRadioButton
+    <baryab.motesadi.customviews.CustomRadioButton
         android:id="@+id/rlLoadingFareType_rbLoadingFareTypeTon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

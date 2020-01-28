@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.noavaran.system.vira.baryab.customviews.AVLoadingIndicatorView
+    <baryab.motesadi.customviews.AVLoadingIndicatorView
         android:id="@+id/dgSynchronization_alivAvi"
         android:layout_width="@dimen/_60sdp"
         android:layout_height="@dimen/_60sdp"
@@ -18,7 +18,7 @@
         app:indicatorName="BallSpinFadeLoaderIndicator"
         app:indicatorColor="@color/colorAccent"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/dgSynchronization_tvNoInternetConnection"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
         app:tvCustomFont="@string/baseFont"
         android:visibility="invisible"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/dgSynchronization_tvSync"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_35sdp"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/rlLocations_btnDelete"
         android:layout_width="@dimen/_34sdp"
         android:layout_height="@dimen/_34sdp"
@@ -19,7 +19,7 @@
         android:textColor="@color/black_text_secondary"
         app:tvCustomFont="@string/baseTextIconFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/rlLocations_btnEdit"
         android:layout_width="@dimen/_34sdp"
         android:layout_height="@dimen/_34sdp"
@@ -32,7 +32,7 @@
         android:textColor="@color/black_text_secondary"
         app:tvCustomFont="@string/baseTextIconFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/rlLocations_tvPlaceName"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_34sdp"
@@ -48,7 +48,7 @@
         android:textColor="@color/black_text_secondary"
         app:tvCustomFont="@string/baseFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/rlLocations_tvPlaceType"
         android:layout_width="@dimen/_34sdp"
         android:layout_height="@dimen/_34sdp"

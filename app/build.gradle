@@ -5,7 +5,7 @@ android {
     buildToolsVersion '29.0.2'
 
     defaultConfig {
-        applicationId "com.noavaran.system.vira.baryab"
+        applicationId 'baryab.motesadi'
         minSdkVersion 14
         targetSdkVersion 29
         versionCode 1
@@ -13,8 +13,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         manifestPlaceholders = [onesignal_app_id: "6ec6372e-27b2-47db-967c-ab9d146e9b41", onesignal_google_project_number: "REMOTE"]
-        multiDexEnabled true //این خط اضافه شده است
-
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -72,6 +71,10 @@ dependencies {
     implementation 'com.github.satyan:sugar:1.5'
     implementation 'com.onesignal:OneSignal:3.5.8@aar'
     testImplementation 'junit:junit:4.12'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.7.1'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.squareup.retrofit2:converter-gson:2.7.1'
 
     implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:8.6.0'
     implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-locationlayer:0.6.0'

@@ -16,7 +16,7 @@
         app:contentInsetStart="0dp"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
@@ -45,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frNewLoad_tvLocationMandatoryIcon"
                 android:layout_width="@dimen/_14sdp"
                 android:layout_height="@dimen/_34sdp"
@@ -59,7 +59,7 @@
                 android:textColor="@color/blue_300"
                 android:textSize="@dimen/_16sdp" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frNewLoad_tvLocation"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_34sdp"
@@ -74,7 +74,7 @@
                 android:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frNewLoad_btnLocation"
                 android:layout_width="@dimen/_75sdp"
                 android:layout_height="@dimen/_34sdp"
@@ -91,7 +91,7 @@
                 android:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frNewLoad_tvLocationHint"
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
@@ -109,7 +109,7 @@
                 android:visibility="gone"
                 app:tvCustomFont="@string/baseFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frNewLoad_tvCarChooseIcon"
                 android:layout_width="@dimen/_14sdp"
                 android:layout_height="@dimen/_34sdp"
@@ -123,7 +123,7 @@
                 android:textColor="@color/blue_300"
                 android:textSize="@dimen/_16sdp" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frNewLoad_tvCarChoose"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_34sdp"
@@ -139,7 +139,7 @@
                 android:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frNewLoad_btnCarChoose"
                 android:layout_width="@dimen/_75sdp"
                 android:layout_height="@dimen/_34sdp"
@@ -156,7 +156,7 @@
                 android:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frNewLoad_tvCarChooseHint"
                 android:layout_width="match_parent"
                 android:layout_height="25dp"
@@ -173,7 +173,7 @@
                 android:visibility="gone"
                 app:tvCustomFont="@string/baseFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frNewLoad_tvLoadingTypeIcon"
                 android:layout_width="@dimen/_14sdp"
                 android:layout_height="@dimen/_34sdp"
@@ -187,7 +187,7 @@
                 android:textColor="@color/blue_300"
                 android:textSize="@dimen/_16sdp" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frNewLoad_tvLoadingType"
                 android:layout_width="@dimen/_60sdp"
                 android:layout_height="@dimen/_34sdp"
@@ -203,7 +203,7 @@
                 android:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomEditText
+            <baryab.motesadi.customviews.CustomEditText
                 android:id="@+id/frNewLoad_etLoadingType"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/edit_text_single_line_height"
@@ -222,7 +222,7 @@
                 android:textSize="@dimen/text_size_medium"
                 app:etCustomFont="@string/baseFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frNewLoad_tvLoadingWeightIcon"
                 android:layout_width="@dimen/_14sdp"
                 android:layout_height="@dimen/_34sdp"
@@ -236,7 +236,7 @@
                 android:textColor="@color/blue_300"
                 android:textSize="@dimen/_16sdp" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frNewLoad_tvLoadingWeight"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_34sdp"
@@ -251,7 +251,7 @@
                 android:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frNewLoad_tvLoadingWeightHint"
                 android:layout_width="@dimen/_45sdp"
                 android:layout_height="@dimen/_34sdp"
@@ -266,7 +266,7 @@
                 android:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomEditText
+            <baryab.motesadi.customviews.CustomEditText
                 android:id="@+id/frNewLoad_etLoadingWeight"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/edit_text_single_line_height"
@@ -287,7 +287,7 @@
 
             <!-- loading fare type -->
 
-            <com.noavaran.system.vira.baryab.customviews.ExpandableLayout
+            <baryab.motesadi.customviews.ExpandableLayout
                 android:id="@+id/frNewLoad_elLoadingFareType"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -302,7 +302,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_34sdp">
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_tvLoadingFareType"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
@@ -315,7 +315,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_tvLoadingFareTypeHint"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -331,7 +331,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_btnLoadingFareTypeArrowDropDown"
                         android:layout_width="@dimen/_34sdp"
                         android:layout_height="@dimen/_34sdp"
@@ -362,9 +362,9 @@
 
                 </RelativeLayout>
 
-            </com.noavaran.system.vira.baryab.customviews.ExpandableLayout>
+            </baryab.motesadi.customviews.ExpandableLayout>
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frNewLoad_tvLoadingFareIcon"
                 android:layout_width="@dimen/_14sdp"
                 android:layout_height="@dimen/_34sdp"
@@ -378,7 +378,7 @@
                 android:textColor="@color/blue_300"
                 android:textSize="@dimen/_16sdp" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frNewLoad_tvLoadingFare"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_34sdp"
@@ -393,7 +393,7 @@
                 android:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frNewLoad_tvLoadingFareHint"
                 android:layout_width="@dimen/_60sdp"
                 android:layout_height="@dimen/_34sdp"
@@ -408,7 +408,7 @@
                 android:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomEditText
+            <baryab.motesadi.customviews.CustomEditText
                 android:id="@+id/frNewLoad_etLoadingFare"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_34sdp"
@@ -427,7 +427,7 @@
                 android:textSize="@dimen/text_size_medium"
                 app:etCustomFont="@string/baseFont"/>
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frNewLoad_tvDescription"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_34sdp"
@@ -442,7 +442,7 @@
                 android:textSize="@dimen/text_size_medium"
                 app:tvCustomFont="@string/baseFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomEditText
+            <baryab.motesadi.customviews.CustomEditText
                 android:id="@+id/frNewLoad_etّDescription"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_75sdp"
@@ -471,7 +471,7 @@
                 android:layout_marginRight="@dimen/margin_small"
                 android:layout_marginTop="@dimen/margin_medium">
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/frNewLoad_btnChooseLoadingPhoto"
                     android:layout_width="@dimen/_75sdp"
                     android:layout_height="@dimen/_34sdp"
@@ -493,7 +493,7 @@
                     android:layout_toRightOf="@+id/frNewLoad_btnChooseLoadingPhoto"
                     android:orientation="vertical">
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_20sdp"
                         android:gravity="center|right"
@@ -502,7 +502,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_15sdp"
                         android:gravity="center|right"
@@ -529,7 +529,7 @@
 
             <!-- more details -->
 
-            <com.noavaran.system.vira.baryab.customviews.ExpandableLayout
+            <baryab.motesadi.customviews.ExpandableLayout
                 android:id="@+id/frNewLoad_elMoreDetails"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -544,7 +544,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_34sdp">
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_tvMoreDetails"
                         android:layout_width="@dimen/_80sdp"
                         android:layout_height="match_parent"
@@ -557,7 +557,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_btnMoreDetailsArrowDropDown"
                         android:layout_width="@dimen/_34sdp"
                         android:layout_height="@dimen/_34sdp"
@@ -581,7 +581,7 @@
                     android:layout_marginTop="@dimen/_10sdp"
                     app:canExpand="true">
 
-                    <com.noavaran.system.vira.baryab.customviews.ExpandableLayout
+                    <baryab.motesadi.customviews.ExpandableLayout
                         android:id="@+id/frNewLoad_elCarLength"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -597,7 +597,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/_34sdp">
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                            <baryab.motesadi.customviews.CustomTextView
                                 android:id="@+id/frNewLoad_tvCarLength"
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="match_parent"
@@ -610,7 +610,7 @@
                                 android:textSize="@dimen/text_size_medium"
                                 app:tvCustomFont="@string/baseFont" />
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                            <baryab.motesadi.customviews.CustomTextView
                                 android:id="@+id/frNewLoad_btnCarLengthArrowDropDown"
                                 android:layout_width="@dimen/_34sdp"
                                 android:layout_height="@dimen/_34sdp"
@@ -624,7 +624,7 @@
                                 android:textSize="@dimen/_18sdp"
                                 app:tvCustomFont="@string/baseTextIconFont" />
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                            <baryab.motesadi.customviews.CustomTextView
                                 android:id="@+id/frNewLoad_tvCarLengthHeaderLabel"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
@@ -647,7 +647,7 @@
                             android:layout_marginTop="@dimen/margin_small"
                             app:canExpand="true">
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                            <baryab.motesadi.customviews.CustomTextView
                                 android:id="@+id/frNewLoad_tvCarLengthFrom"
                                 android:layout_width="@dimen/_15sdp"
                                 android:layout_height="@dimen/_30sdp"
@@ -663,7 +663,7 @@
                                 android:textSize="@dimen/text_size_medium"
                                 app:tvCustomFont="@string/baseFont" />
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomEditText
+                            <baryab.motesadi.customviews.CustomEditText
                                 android:id="@+id/frNewLoad_etCarLengthFrom"
                                 android:layout_width="@dimen/_105sdp"
                                 android:layout_height="@dimen/_34sdp"
@@ -678,7 +678,7 @@
                                 android:textSize="@dimen/text_size_medium"
                                 app:etCustomFont="@string/baseFont" />
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                            <baryab.motesadi.customviews.CustomTextView
                                 android:id="@+id/frNewLoad_tvCarLengthTo"
                                 android:layout_width="@dimen/_15sdp"
                                 android:layout_height="@dimen/_30sdp"
@@ -692,7 +692,7 @@
                                 android:textSize="@dimen/text_size_medium"
                                 app:tvCustomFont="@string/baseFont" />
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomEditText
+                            <baryab.motesadi.customviews.CustomEditText
                                 android:id="@+id/frNewLoad_etCarLengthTo"
                                 android:layout_width="@dimen/_105sdp"
                                 android:layout_height="@dimen/_34sdp"
@@ -710,11 +710,11 @@
 
                         </RelativeLayout>
 
-                    </com.noavaran.system.vira.baryab.customviews.ExpandableLayout>
+                    </baryab.motesadi.customviews.ExpandableLayout>
 
                     <!-- car width -->
 
-                    <com.noavaran.system.vira.baryab.customviews.ExpandableLayout
+                    <baryab.motesadi.customviews.ExpandableLayout
                         android:id="@+id/frNewLoad_elCarWidth"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -729,7 +729,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/_34sdp">
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                            <baryab.motesadi.customviews.CustomTextView
                                 android:id="@+id/frNewLoad_tvCarWidth"
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="match_parent"
@@ -742,7 +742,7 @@
                                 android:textSize="@dimen/text_size_medium"
                                 app:tvCustomFont="@string/baseFont" />
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                            <baryab.motesadi.customviews.CustomTextView
                                 android:id="@+id/frNewLoad_btnCarWidthArrowDropDown"
                                 android:layout_width="@dimen/_34sdp"
                                 android:layout_height="@dimen/_34sdp"
@@ -756,7 +756,7 @@
                                 android:textSize="@dimen/_18sdp"
                                 app:tvCustomFont="@string/baseTextIconFont" />
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                            <baryab.motesadi.customviews.CustomTextView
                                 android:id="@+id/frNewLoad_tvCarWidthHeaderLabel"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
@@ -780,7 +780,7 @@
                             android:layout_marginTop="@dimen/_5sdp"
                             app:canExpand="true">
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                            <baryab.motesadi.customviews.CustomTextView
                                 android:id="@+id/frNewLoad_tvCarWidthFrom"
                                 android:layout_width="@dimen/_15sdp"
                                 android:layout_height="@dimen/_30sdp"
@@ -796,7 +796,7 @@
                                 android:textSize="@dimen/text_size_medium"
                                 app:tvCustomFont="@string/baseFont" />
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomEditText
+                            <baryab.motesadi.customviews.CustomEditText
                                 android:id="@+id/frNewLoad_etCarWidthFrom"
                                 android:layout_width="@dimen/_105sdp"
                                 android:layout_height="@dimen/_34sdp"
@@ -811,7 +811,7 @@
                                 android:textSize="@dimen/text_size_medium"
                                 app:etCustomFont="@string/baseFont" />
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                            <baryab.motesadi.customviews.CustomTextView
                                 android:id="@+id/frNewLoad_tvCarWidthTo"
                                 android:layout_width="@dimen/_15sdp"
                                 android:layout_height="@dimen/_30sdp"
@@ -825,7 +825,7 @@
                                 android:textSize="@dimen/text_size_medium"
                                 app:tvCustomFont="@string/baseFont" />
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomEditText
+                            <baryab.motesadi.customviews.CustomEditText
                                 android:id="@+id/frNewLoad_etCarWidthTo"
                                 android:layout_width="@dimen/_105sdp"
                                 android:layout_height="@dimen/_34sdp"
@@ -843,11 +843,11 @@
 
                         </RelativeLayout>
 
-                    </com.noavaran.system.vira.baryab.customviews.ExpandableLayout>
+                    </baryab.motesadi.customviews.ExpandableLayout>
 
                     <!-- car height -->
 
-                    <com.noavaran.system.vira.baryab.customviews.ExpandableLayout
+                    <baryab.motesadi.customviews.ExpandableLayout
                         android:id="@+id/frNewLoad_elCarHeight"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -862,7 +862,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/_34sdp">
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                            <baryab.motesadi.customviews.CustomTextView
                                 android:id="@+id/frNewLoad_tvCarHeight"
                                 android:layout_width="@dimen/_100sdp"
                                 android:layout_height="match_parent"
@@ -875,7 +875,7 @@
                                 android:textSize="@dimen/text_size_medium"
                                 app:tvCustomFont="@string/baseFont" />
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                            <baryab.motesadi.customviews.CustomTextView
                                 android:id="@+id/frNewLoad_btnCarHeightArrowDropDown"
                                 android:layout_width="@dimen/_34sdp"
                                 android:layout_height="@dimen/_34sdp"
@@ -889,7 +889,7 @@
                                 android:textSize="@dimen/_18sdp"
                                 app:tvCustomFont="@string/baseTextIconFont" />
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                            <baryab.motesadi.customviews.CustomTextView
                                 android:id="@+id/frNewLoad_tvCarHeightHeaderLabel"
                                 android:layout_width="wrap_content"
                                 android:layout_height="match_parent"
@@ -912,7 +912,7 @@
                             android:layout_marginTop="@dimen/_5sdp"
                             app:canExpand="true">
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                            <baryab.motesadi.customviews.CustomTextView
                                 android:id="@+id/frNewLoad_tvCarHeightFrom"
                                 android:layout_width="@dimen/_15sdp"
                                 android:layout_height="@dimen/_30sdp"
@@ -928,7 +928,7 @@
                                 android:textSize="@dimen/text_size_medium"
                                 app:tvCustomFont="@string/baseFont" />
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomEditText
+                            <baryab.motesadi.customviews.CustomEditText
                                 android:id="@+id/frNewLoad_etCarHeightFrom"
                                 android:layout_width="@dimen/_105sdp"
                                 android:layout_height="@dimen/_34sdp"
@@ -943,7 +943,7 @@
                                 android:textSize="@dimen/text_size_medium"
                                 app:etCustomFont="@string/baseFont" />
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                            <baryab.motesadi.customviews.CustomTextView
                                 android:id="@+id/frNewLoad_tvCarHeightTo"
                                 android:layout_width="@dimen/_15sdp"
                                 android:layout_height="@dimen/_30sdp"
@@ -957,7 +957,7 @@
                                 android:textSize="@dimen/text_size_medium"
                                 app:tvCustomFont="@string/baseFont" />
 
-                            <com.noavaran.system.vira.baryab.customviews.CustomEditText
+                            <baryab.motesadi.customviews.CustomEditText
                                 android:id="@+id/frNewLoad_etCarHeightTo"
                                 android:layout_width="@dimen/_105sdp"
                                 android:layout_height="@dimen/_34sdp"
@@ -975,10 +975,10 @@
 
                         </RelativeLayout>
 
-                    </com.noavaran.system.vira.baryab.customviews.ExpandableLayout>
+                    </baryab.motesadi.customviews.ExpandableLayout>
 
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_tvSpendingWarehouse"
                         android:layout_width="wrap_content"
                         android:layout_height="@dimen/_34sdp"
@@ -993,7 +993,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_tvSpendingWarehouseHint"
                         android:layout_width="@dimen/_45sdp"
                         android:layout_height="@dimen/_34sdp"
@@ -1008,7 +1008,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomEditText
+                    <baryab.motesadi.customviews.CustomEditText
                         android:id="@+id/frNewLoad_etSpendingWarehouse"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_34sdp"
@@ -1027,7 +1027,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:etCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_tvLoadingTime"
                         android:layout_width="@dimen/_100sdp"
                         android:layout_height="@dimen/_34sdp"
@@ -1043,7 +1043,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_tvLoadingTimeHint"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -1058,7 +1058,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_btnLoadingTime"
                         android:layout_width="@dimen/_65sdp"
                         android:layout_height="wrap_content"
@@ -1074,7 +1074,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_tvDetermineDischargeTime"
                         android:layout_width="@dimen/_100sdp"
                         android:layout_height="@dimen/_34sdp"
@@ -1090,7 +1090,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_tvDetermineDischargeTimeHint"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -1105,7 +1105,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_btnDetermineDischargeTime"
                         android:layout_width="@dimen/_65sdp"
                         android:layout_height="wrap_content"
@@ -1121,7 +1121,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_tvDetermineExpirationTime"
                         android:layout_width="@dimen/_100sdp"
                         android:layout_height="@dimen/_34sdp"
@@ -1136,7 +1136,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_tvDetermineExpirationTimeHint"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -1151,7 +1151,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_btnDetermineExpirationTime"
                         android:layout_width="@dimen/_65sdp"
                         android:layout_height="wrap_content"
@@ -1167,7 +1167,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomSwitchButton
+                    <baryab.motesadi.customviews.CustomSwitchButton
                         android:id="@+id/frNewLoad_btnPaymentIsPaidAfterLoadingArriveToDestination"
                         android:layout_width="@dimen/_45sdp"
                         android:layout_height="@dimen/_25sdp"
@@ -1177,7 +1177,7 @@
                         android:layout_marginTop="@dimen/margin_medium"
                         app:sb_checked_color="@color/blue_500" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_tvPaymentIsPaidAfterLoadingArriveToDestination"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -1195,7 +1195,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomSwitchButton
+                    <baryab.motesadi.customviews.CustomSwitchButton
                         android:id="@+id/frNewLoad_btnLoadingIsGoingRound"
                         android:layout_width="@dimen/_45sdp"
                         android:layout_height="@dimen/_25sdp"
@@ -1205,7 +1205,7 @@
                         android:layout_marginTop="@dimen/margin_medium"
                         app:sb_checked_color="@color/blue_500" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_tvLoadingIsGoingRound"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -1223,7 +1223,7 @@
                         android:textSize="@dimen/text_size_medium"
                         app:tvCustomFont="@string/baseFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomSwitchButton
+                    <baryab.motesadi.customviews.CustomSwitchButton
                         android:id="@+id/frNewLoad_btnHavingIntactTent"
                         android:layout_width="@dimen/_45sdp"
                         android:layout_height="@dimen/_25sdp"
@@ -1233,7 +1233,7 @@
                         android:layout_marginTop="@dimen/margin_medium"
                         app:sb_checked_color="@color/blue_500" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/frNewLoad_tvHavingIntactTent"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -1253,7 +1253,7 @@
 
                 </RelativeLayout>
 
-            </com.noavaran.system.vira.baryab.customviews.ExpandableLayout>
+            </baryab.motesadi.customviews.ExpandableLayout>
 
             <RelativeLayout
                 android:id="@+id/frNewLoad_btnSave"
@@ -1267,7 +1267,7 @@
                 android:background="@drawable/button_selector_1"
                 android:clickable="true">
 
-                <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                <baryab.motesadi.customviews.CustomTextView
                     android:id="@+id/frNewLoad_tvSave"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

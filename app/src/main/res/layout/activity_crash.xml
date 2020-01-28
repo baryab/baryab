@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context="com.noavaran.system.vira.baryab.activities.CrashActivity"
+    tools:mContext="baryab.motesadi.activities.CrashActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary">
@@ -16,7 +16,7 @@
         android:scaleType="fitXY"
         android:src="@drawable/ic_exception"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/acCrash_tvDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
         android:textColor="@color/white"
         app:tvCustomFont="@string/baseFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/acCrash_btnRestartApp"
         android:layout_width="@dimen/_120sdp"
         android:layout_height="@dimen/_30sdp"

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/frDriverRating_tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
         android:layout_below="@id/frDriverRating_tvTitle"
         android:src="@drawable/ic_no_image_found"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/frDriverRating_tvDriverName"
         android:layout_width="match_parent"
         android:layout_height="32dp"
@@ -46,7 +46,7 @@
         android:textColor="@color/black_text"
         app:tvCustomFont="@string/baseFont"/>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/frDriverRating_tvDriverCarType"
         android:layout_width="match_parent"
         android:layout_height="32dp"
@@ -89,7 +89,7 @@
                 android:layout_marginRight="1dp"
                 android:src="@drawable/ic_flag_iran"/>
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
@@ -101,7 +101,7 @@
                 android:textSize="6dp"
                 android:textColor="@color/white"/>
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/tvIranText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -116,7 +116,7 @@
 
         </RelativeLayout>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/frDriverRating_tvPlateLicenseNumber"
             android:layout_width="80dp"
             android:layout_height="match_parent"
@@ -144,7 +144,7 @@
             android:padding="2dp"
             android:background="#edce01">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/tvIranTextLabel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -158,7 +158,7 @@
                 android:textColor="@color/black"
                 app:tvCustomFont="@string/baseFont"/>
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/frDriverRating_tvPlateLicenseIranNumber"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -176,7 +176,7 @@
 
     </RelativeLayout>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/frDriverRating_tvDriverRating"
         android:layout_width="match_parent"
         android:layout_height="32dp"
@@ -200,7 +200,7 @@
         android:layout_marginRight="10dp"
         android:gravity="center">
 
-        <com.noavaran.system.vira.baryab.customviews.CustomRatingBar
+        <baryab.motesadi.customviews.CustomRatingBar
             android:id="@+id/frDriverRating_rbDriverRating"
             android:layout_width="wrap_content"
             android:layout_height="32dp"
@@ -229,7 +229,7 @@
             android:scaleType="fitXY"
             android:src="@drawable/ic_no_image_found"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -242,7 +242,7 @@
             android:textColor="@color/black_text_secondary"
             app:tvCustomFont="@string/baseFont"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/frDriverRating_tvSignatureOwner"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -258,7 +258,7 @@
 
     </RelativeLayout>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/frDriverRating_btnConfirm"
         android:layout_width="match_parent"
         android:layout_height="45dp"

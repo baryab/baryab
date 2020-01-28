@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
-    tools:context="com.noavaran.system.vira.baryab.activities.AboutActivity">
+    tools:mContext="baryab.motesadi.activities.AboutActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/acComment_toolbar"
@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/acComment_btnBack"
                 android:layout_width="@dimen/toolbar_icon_view_width"
                 android:layout_height="@dimen/toolbar_icon_view_height"
@@ -39,7 +39,7 @@
                 android:textSize="@dimen/toolbar_icon_text_size"
                 app:tvCustomFont="@string/baseTextIconFont" />
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:id="@+id/acComment_tvTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
 
     </androidx.appcompat.widget.Toolbar>
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/acComment_tvCom1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
         android:textSize="@dimen/text_size_medium"
         app:tvCustomFont="@string/baseFont" />
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/acComment_tvCom2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
         android:textSize="@dimen/text_size_small"
         app:tvCustomFont="@string/baseFont" />
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/acComment_tvCommentTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -107,7 +107,7 @@
         android:textSize="@dimen/text_size_medium"
         app:tvCustomFont="@string/baseFont" />
 
-    <com.noavaran.system.vira.baryab.customviews.CustomEditText
+    <baryab.motesadi.customviews.CustomEditText
         android:id="@+id/acComment_etCommentTitle"
         android:layout_width="match_parent"
         android:layout_height="@dimen/edit_text_single_line_height"
@@ -125,7 +125,7 @@
         android:textSize="@dimen/text_size_medium"
         app:tvCustomFont="@string/baseFont" />
 
-    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+    <baryab.motesadi.customviews.CustomTextView
         android:id="@+id/acComment_tvCommentDesc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -141,7 +141,7 @@
         android:textSize="@dimen/text_size_medium"
         app:tvCustomFont="@string/baseFont" />
 
-    <com.noavaran.system.vira.baryab.customviews.CustomEditText
+    <baryab.motesadi.customviews.CustomEditText
         android:id="@+id/acComment_etCommentDesc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -158,7 +158,7 @@
         android:textSize="@dimen/text_size_medium"
         app:tvCustomFont="@string/baseFont" />
 
-    <com.noavaran.system.vira.baryab.customviews.CustomButton
+    <baryab.motesadi.customviews.CustomButton
         android:id="@+id/acComment_btnLogin"
         android:layout_width="match_parent"
         android:layout_height="@dimen/button_height"

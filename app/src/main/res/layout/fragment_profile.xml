@@ -17,7 +17,7 @@
         app:contentInsetStart="0dp"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-            <com.noavaran.system.vira.baryab.customviews.CustomTextView
+            <baryab.motesadi.customviews.CustomTextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -64,7 +64,7 @@
                     android:background="@drawable/edittext_border"
                     android:orientation="vertical">
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/customTextView2"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_45sdp"
@@ -74,7 +74,7 @@
                         android:textSize="@dimen/_35sdp"
                         app:tvCustomFont="@string/baseTextIconFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_20sdp"
                         android:gravity="center"
@@ -99,7 +99,7 @@
                     android:background="@drawable/edittext_border"
                     android:orientation="vertical">
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_45sdp"
                         android:gravity="center"
@@ -108,7 +108,7 @@
                         android:textColor="@color/white"
                         app:tvCustomFont="@string/baseTextIconFont"/>
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_20sdp"
                         android:gravity="center"
@@ -146,7 +146,7 @@
                     android:background="@drawable/edittext_border"
                     android:orientation="vertical">
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_45sdp"
                         android:gravity="center"
@@ -155,7 +155,7 @@
                         android:textColor="@color/white"
                         app:tvCustomFont="@string/baseTextIconFont"/>
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:gravity="center"
@@ -180,7 +180,7 @@
                     android:background="@drawable/edittext_border"
                     android:orientation="vertical">
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_45sdp"
                         android:gravity="center"
@@ -189,7 +189,7 @@
                         android:textColor="@color/white"
                         app:tvCustomFont="@string/baseTextIconFont"/>
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/customTextView3"
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
@@ -228,7 +228,7 @@
                     android:background="@drawable/edittext_border"
                     android:orientation="vertical">
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_45sdp"
                         android:gravity="center"
@@ -237,7 +237,7 @@
                         android:textSize="@dimen/_35sdp"
                         app:tvCustomFont="@string/baseTextIconFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:gravity="center"
@@ -262,7 +262,7 @@
                     android:background="@drawable/edittext_border"
                     android:orientation="vertical">
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_45sdp"
                         android:gravity="center"
@@ -271,7 +271,7 @@
                         android:textColor="@color/white"
                         app:tvCustomFont="@string/baseTextIconFont"/>
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:gravity="center"
@@ -309,7 +309,7 @@
                     android:background="@drawable/edittext_border"
                     android:orientation="vertical">
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:id="@+id/customTextView"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_45sdp"
@@ -319,7 +319,7 @@
                         android:textSize="@dimen/_35sdp"
                         app:tvCustomFont="@string/baseTextIconFont" />
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:gravity="center"
@@ -344,7 +344,7 @@
                     android:background="@drawable/edittext_border"
                     android:orientation="vertical">
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_45sdp"
                         android:gravity="center"
@@ -353,7 +353,7 @@
                         android:textColor="@color/white"
                         app:tvCustomFont="@string/baseTextIconFont"/>
 
-                    <com.noavaran.system.vira.baryab.customviews.CustomTextView
+                    <baryab.motesadi.customviews.CustomTextView
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
                         android:gravity="center"

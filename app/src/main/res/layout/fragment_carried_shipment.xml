@@ -17,7 +17,7 @@
         android:gravity="center"
         android:visibility="gone">
 
-        <com.noavaran.system.vira.baryab.customviews.CustomImageView
+        <baryab.motesadi.customviews.CustomImageView
             android:id="@+id/frCarriedShipment_ivNoItemFound"
             android:layout_width="@dimen/_18sdp"
             android:layout_height="@dimen/_18sdp"
@@ -27,7 +27,7 @@
             android:src="@drawable/ic_no_item_found"
             app:ivDrawableTint="#adffff"/>
 
-        <com.noavaran.system.vira.baryab.customviews.CustomTextView
+        <baryab.motesadi.customviews.CustomTextView
             android:id="@+id/frCarriedShipment_tvNoItemFound"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.noavaran.system.vira.baryab.activities.MainActivity">
+    tools:mContext="baryab.motesadi.activities.MainActivity">
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/acMain_viewPager"
@@ -22,7 +22,7 @@
         android:layout_above="@+id/acMain_spaceTabLayout"
         android:background="#2678909c"/>
 
-    <com.noavaran.system.vira.baryab.customviews.DachshundTabLayout
+    <baryab.motesadi.customviews.DachshundTabLayout
         android:id="@+id/acMain_spaceTabLayout"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_52sdp"
