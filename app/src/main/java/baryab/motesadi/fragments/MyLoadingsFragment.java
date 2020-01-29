@@ -147,7 +147,7 @@ public class MyLoadingsFragment extends BaseFragment {
         okHttpHelper.getMyLoadings(String.valueOf(page), Configuration.LIMITATION, new OkHttpHelper.OnCallback() {
             @Override
             public void onStart() {
-                if (!swipeContainer.isRefreshing() && !myLoadingsAdapter.isLoading())
+               // if ( !myLoadingsAdapter.isLoading())
                     ((MainActivity) getActivity()).showDialogProgress();
             }
 

@@ -12,6 +12,7 @@ import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Looper;
+import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -72,6 +73,7 @@ public class MainActivity extends BaseActivity {
         new Handler(Looper.getMainLooper()).postDelayed(doSynchronization, 500);
 
         changeTabsFont();
+
     }
 
     private void findViews() {
@@ -112,30 +114,34 @@ public class MainActivity extends BaseActivity {
 
     private void setupViewPager() {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+        Log.e("langix",LocaleHelper.getLanguage(MainActivity.this).toString()+"");
         if (LocaleHelper.getLanguage(MainActivity.this).equals("en")) {
             adapter.addFrag(new ProfileFragment(), "خانه");
             adapter.addFrag(carriedLoadingFragment, "حمل شده");
-            adapter.addFrag(newLoadFragment, "ثبت بار");
+
             adapter.addFrag(myLoadingsFragment, "بارهای من");
+            adapter.addFrag(newLoadFragment, "ثبت بار");
         } else if (LocaleHelper.getLanguage(MainActivity.this).equals("fa")) {
-            adapter.addFrag(myLoadingsFragment, "بارهای من");
-            adapter.addFrag(newLoadFragment, "ثبت بار");
-            adapter.addFrag(carriedLoadingFragment, "حمل شده");
             adapter.addFrag(new ProfileFragment(), "خانه");
+            adapter.addFrag(newLoadFragment, "ثبت بار");
+            adapter.addFrag(myLoadingsFragment, "بارهای من");
+            adapter.addFrag(carriedLoadingFragment, "حمل شده");
+
         } else {
             adapter.addFrag(new ProfileFragment(), "خانه");
             adapter.addFrag(carriedLoadingFragment, "حمل شده");
-            adapter.addFrag(newLoadFragment, "ثبت بار");
+
             adapter.addFrag(myLoadingsFragment, "بارهای من");
+            adapter.addFrag(newLoadFragment, "ثبت بار");
         }
         viewPager.setAdapter(adapter);
 
         if (LocaleHelper.getLanguage(MainActivity.this).equals("en"))
-            viewPager.setCurrentItem(2);
+            viewPager.setCurrentItem(3);
         else if (LocaleHelper.getLanguage(MainActivity.this).equals("fa"))
             viewPager.setCurrentItem(1);
         else
-            viewPager.setCurrentItem(2);
+            viewPager.setCurrentItem(1);
     }
 
     @Override
@@ -227,15 +233,17 @@ public class MainActivity extends BaseActivity {
                         @Override
                         public void onSuccess() {
                             showToastSuccess("همگام سازی اطلاعات با سرور انجام شد");
+                            Log.e("loping","sucess");
                         }
 
                         @Override
                         public void onFailure() {
                             SyncFailureDialog syncFailureDialog = new SyncFailureDialog(MainActivity.this);
                             syncFailureDialog.show();
+                            Log.e("loping","failing");
                         }
                     });
-                    dialog.show();
+                   // dialog.show();     Log.e("loping","out");
                 }
             });
         }

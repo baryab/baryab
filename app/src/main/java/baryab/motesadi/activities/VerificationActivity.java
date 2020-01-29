@@ -102,7 +102,10 @@ public class VerificationActivity extends BaseActivity {
         Log.i("test", "doVerification: ");
 
         OkHttpHelper okHttpHelper = new OkHttpHelper(VerificationActivity.this, Configuration.API_LOGIN, OkHttpHelper.MEDIA_TYPE_JSON);
-
+Log.e("cahsei",Integer.parseInt(code)+"\n"
++phoneNumber+"\n"
+        +userId+"\n"
+        +registrationId);
         okHttpHelper.doVerify(Integer.parseInt(code), phoneNumber, userId, registrationId, new OkHttpHelper.OnCallback() {
             @Override
             public void onStart() {

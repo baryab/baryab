@@ -84,6 +84,7 @@ public class RoutingActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<ProvinceType> call, Throwable t) {
+                Log.e("exxxs","reqf"+t.getMessage());
                 Toast.makeText(RoutingActivity.this, "ارتباط با سرور برقرار نشد دوباره امتحان کنید", Toast.LENGTH_SHORT).show();
 
             }

@@ -2,6 +2,7 @@ package baryab.motesadi.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import baryab.motesadi.BaseActivity;
@@ -41,6 +42,7 @@ public class CrashActivity extends BaseActivity {
 
     private void getIntents() {
         stackTrace = getIntent().getStringExtra("STACKTRACE");
+        Log.e("stacking",stackTrace);
     }
 
     private void sendUncaughtExceptionToServer(String exception) {

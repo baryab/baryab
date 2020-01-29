@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Log;
 import android.view.View;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -84,7 +85,7 @@ public class NewLoadController implements NewLoadDelegate.Controller {
         this.model = new NewLoadModel();
 
         initComponents();
-        initRecyclerView();
+    initRecyclerView();
     }
 
     private void initComponents() {
@@ -123,14 +124,23 @@ public class NewLoadController implements NewLoadDelegate.Controller {
 //        view.getLoadingProviceTypeRecyclerView().setAdapter(provinceAdapter);
 //        provinceAdapter.notifyDataSetChanged();
 
-
-        listLoadingFareType = LoadingFareType.listAll(LoadingFareType.class);
-        listLoadingFareTypeInfo = new ArrayList<>();
-        for (int i = 0; i < listLoadingFareType.size(); i++) {
-            listLoadingFareTypeInfo.add(new LoadingFareTypeInfo(listLoadingFareType.get(i).getLoadingFareTypeId(), listLoadingFareType.get(i).getName()));
-        }
-        loadingFareType = LoadingFareType.listAll(LoadingFareType.class);
+//try {
+//    listLoadingFareType = LoadingFareType.listAll(LoadingFareType.class);
+//    Log.e("crahx",listLoadingFareType.size()+"x");
+//    listLoadingFareTypeInfo = new ArrayList<>();
+//    for (int i = 0; i < listLoadingFareType.size(); i++) {
+//        listLoadingFareTypeInfo.add(new LoadingFareTypeInfo(listLoadingFareType.get(i).getLoadingFareTypeId(), listLoadingFareType.get(i).getName()));
+//    }
+//    loadingFareType = LoadingFareType.listAll(LoadingFareType.class);
+//    loadingFareTypeAdapter = new LoadingFareTypeAdapter(listLoadingFareTypeInfo);
+//    Log.e("crahx",loadingFareType.size()+"");
+//}catch (Exception e){
+//    Log.e("catcha",e.getMessage());
+//}
+        listLoadingFareType = new ArrayList<>();
+listLoadingFareTypeInfo=new ArrayList<>();
         loadingFareTypeAdapter = new LoadingFareTypeAdapter(listLoadingFareTypeInfo);
+
         loadingFareTypeAdapter.setOnItemClickListener(new LoadingFareTypeAdapter.onItemClickListener() {
             @Override
             public void onClick(int position) {
